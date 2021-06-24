@@ -1,0 +1,11 @@
+.ant-menu-horizontal {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+  padding: 0px 20px !important;
+  margin: 0 !important;
+}

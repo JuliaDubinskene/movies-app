@@ -1,0 +1,18 @@
+body {
+  margin: 0 auto;
+  max-width: 1010px;
+  background: #f7f7f7;
+  font-family: Inter, sans-serif;
+  overflow-y: scroll;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 36px;
+  max-width: 1010px;
+  background: #ffffff;
+}

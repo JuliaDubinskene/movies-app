@@ -1,0 +1,91 @@
+.card {
+  display: flex;
+  flex: 0 0 450px;
+  box-shadow: 0px 4px 12px rgb(0 0 0 / 15%);
+  font-size: 12px;
+  line-height: 22px;
+  height: 281px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px 6px 20px;
+  gap: 8px;
+}
+
+.card__image {
+  flex: 0 0 183px;
+  height: 281px;
+  width: 183px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.card__title {
+  max-height: 110px;
+  overflow: hidden;
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.card__averge-rating {
+  line-height: 29px;
+  height: 32px;
+  flex: 0 0 32px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.card__release-date {
+  color: #827e7e;
+}
+
+.card__genre-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card__overview {
+  overflow: hidden;
+}
+
+.overflow-multiply {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-height: 22px;
+  max-height: 110px;
+  white-space: no-wrap;
+}
+
+.ant-rate.card__user-rating {
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 525px) {
+  .card {
+    flex: 0 0 100%;
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card__image {
+    padding-top: 16px;
+  }
+}
